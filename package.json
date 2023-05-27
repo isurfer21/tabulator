@@ -1,0 +1,32 @@
+{
+  "name": "tabulator",
+  "version": "1.0.0",
+  "description": "A library to transform and show tables in different formats.",
+  "type": "module",
+  "main": "tabulator.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isurfer21/tabulator.git"
+  },
+  "author": "Abhishek Kumar <akbittu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isurfer21/tabulator/issues"
+  },
+  "homepage": "https://github.com/isurfer21/tabulator#readme",
+  "dependencies": {
+    "@ltd/j-toml": "^1.38.0",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.21.5",
+    "eslint": "^8.41.0",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8"
+  }
+}
