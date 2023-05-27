@@ -50,7 +50,7 @@ Renderer is a module that provides static methods to create table strings from a
 To install these modules, run:
 
 ```sh
-npm install tabulator
+npm install tabulatore
 ```
 
 ## Usage
@@ -58,9 +58,9 @@ npm install tabulator
 To use these modules, import them in your node.js project:
 
 ```js
-import { Sifter } from 'tabulator';
-import { Printer } from 'tabulator';
-import { Renderer } from 'tabulator';
+import { Sifter } from 'tabulatore';
+import { Printer } from 'tabulatore';
+import { Renderer } from 'tabulatore';
 ```
 
 Then you can call their methods with your data:

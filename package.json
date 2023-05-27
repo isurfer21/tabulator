@@ -1,5 +1,5 @@
 {
-  "name": "tabulator",
+  "name": "tabulatore",
   "version": "1.0.0",
   "description": "A library to transform and show tables in different formats.",
   "type": "module",
