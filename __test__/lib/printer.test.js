@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
 
 // Import the Printer class and the dependencies
-import Printer from '../../lib/printer';
+import Printer from '../../lib/printer.js';
 import YAML from 'yaml';
 import TOML from '@ltd/j-toml';
 

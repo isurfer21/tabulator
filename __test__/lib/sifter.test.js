@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
 
 // Import the Sifter class
-import Sifter from '../../lib/sifter';
+import Sifter from '../../lib/sifter.js';
 
 // Define some mock data for testing
 const columns = { id: 'ID', name: 'Name', age: 'Age' };

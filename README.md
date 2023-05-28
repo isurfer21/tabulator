@@ -58,9 +58,7 @@ npm install tabulatore
 To use these modules, import them in your node.js project:
 
 ```js
-import { Sifter } from 'tabulatore';
-import { Printer } from 'tabulatore';
-import { Renderer } from 'tabulatore';
+import { Sifter, Printer, Renderer } from 'tabulatore';
 ```
 
 Then you can call their methods with your data:

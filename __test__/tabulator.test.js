@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
 
 // Import the module from tabulator.js
-import { Sifter, Printer, Renderer } from '../tabulator';
+import { Sifter, Printer, Renderer } from '../tabulator.js';
 import YAML from 'yaml';
 import TOML from '@ltd/j-toml';
 

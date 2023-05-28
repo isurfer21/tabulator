@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
 
 // Import the Renderer class
-import Renderer from '../../lib/renderer';
+import Renderer from '../../lib/renderer.js';
 
 // Define some mock data for testing
 const arrList = [
