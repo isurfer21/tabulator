@@ -60,7 +60,7 @@ It takes an array of arrays that contains the row values and prints it as a PSV 
 
 ### `printAsHTML(arrList, isFormatted)` 
 
-It takes an array of arrays that contains the row values and a boolean flag for formatting. It prints it as an HTML table string. If the flag is true, it adds line breaks and spaces for readability. If the flag is false, it removes them for compactness.
+It takes an array of arrays that contains the row values and a boolean flag for formatting. It prints it as an HTML table string. If the flag is `true`, it adds line breaks and spaces for readability. If the flag is `false`, it removes them for compactness.
 
 ### `printAsMarkdown(arrList)` 
 
@@ -80,7 +80,7 @@ It takes an array of arrays that contains the row values and a separator charact
 
 ### `toHTML(arrList, isFormatted)` 
 
-It takes an array of arrays that contains the row values and a boolean flag for formatting. It returns an HTML table string. If the flag is true, it adds line breaks and spaces for readability. If the flag is false, it removes them for compactness.
+It takes an array of arrays that contains the row values and a boolean flag for formatting. It returns an HTML table string. If the flag is `true`, it adds line breaks and spaces for readability. If the flag is `false`, it removes them for compactness.
 
 ### `toMarkdown(arrList)` 
 
