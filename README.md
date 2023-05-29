@@ -18,32 +18,77 @@ These modules can be used to manipulate and display data in various supported fo
 
 Sifter is a module that provides two static methods to convert between an object list and an array list.
 
-- `toArrayList(columns, rows)` takes an object that maps column ids to column titles and an array of objects that represent rows of data. It returns an array of arrays that contains the column titles as the first row and the row values as the subsequent rows.
-- `toObjectList(columns, rows)` takes an object that maps column ids to column titles and an array of arrays that contains the row values. It returns an array of objects that represent rows of data with the column titles as the keys.
+### `toArrayList(columns, rows)` 
+
+It takes an object that maps column ids to column titles and an array of objects that represent rows of data. It returns an array of arrays that contains the column titles as the first row and the row values as the subsequent rows.
+
+### `toObjectList(columns, rows)` 
+
+It takes an object that maps column ids to column titles and an array of arrays that contains the row values. It returns an array of objects that represent rows of data with the column titles as the keys.
 
 ## Printer
 
 Printer is a module that provides a static method to print an object list as a table in various formats.
 
-- `printAsJSON(objList)` takes an array of objects that represent rows of data and prints it as a JSON string.
-- `printAsYAML(objList)` takes an array of objects that represent rows of data and prints it as a YAML string.
-- `printAsTOML(objList)` takes an array of objects that represent rows of data and prints it as a TOML string.
-- `printAsASCII(objList)` takes an array of objects that represent rows of data and prints it as an ASCII table using the `console.table` method.
-- `printAsCSV(arrList)` takes an array of arrays that contains the row values and prints it as a CSV string.
-- `printAsTSV(arrList)` takes an array of arrays that contains the row values and prints it as a TSV string.
-- `printAsPSV(arrList)` takes an array of arrays that contains the row values and prints it as a PSV string.
-- `printAsHTML(arrList, isFormatted)` takes an array of arrays that contains the row values and a boolean flag for formatting. It prints it as an HTML table string. If the flag is true, it adds line breaks and spaces for readability. If the flag is false, it removes them for compactness.
-- `printAsMarkdown(arrList)` takes an array of arrays that contains the row values and prints it as a Markdown table string.
-- `printAsTable(arrList)` takes an array of arrays that contains the row values and prints it as a plain text table.
+### `printAsJSON(objList)` 
+
+It takes an array of objects that represent rows of data and prints it as a JSON string.
+
+### `printAsYAML(objList)` 
+
+It takes an array of objects that represent rows of data and prints it as a YAML string.
+
+### `printAsTOML(objList)` 
+
+It takes an array of objects that represent rows of data and prints it as a TOML string.
+
+### `printAsASCII(objList)` 
+
+It takes an array of objects that represent rows of data and prints it as an ASCII table using the `console.table` method.
+
+### `printAsCSV(arrList)` 
+
+It takes an array of arrays that contains the row values and prints it as a CSV string.
+
+### `printAsTSV(arrList)` 
+
+It takes an array of arrays that contains the row values and prints it as a TSV string.
+
+### `printAsPSV(arrList)` 
+
+It takes an array of arrays that contains the row values and prints it as a PSV string.
+
+### `printAsHTML(arrList, isFormatted)` 
+
+It takes an array of arrays that contains the row values and a boolean flag for formatting. It prints it as an HTML table string. If the flag is true, it adds line breaks and spaces for readability. If the flag is false, it removes them for compactness.
+
+### `printAsMarkdown(arrList)` 
+
+It takes an array of arrays that contains the row values and prints it as a Markdown table string.
+
+### `printAsTable(arrList)` 
+
+It takes an array of arrays that contains the row values and prints it as a plain text table.
 
 ## Renderer
 
 Renderer is a module that provides static methods to create table strings from an array list in various formats.
 
-- `toDelimitedTable(arrList, separator)` takes an array of arrays that contains the row values and a separator character. It returns a delimited table string using the separator. It also adds double quotes around any value that contains the separator.
-- `toHTML(arrList, isFormatted)` takes an array of arrays that contains the row values and a boolean flag for formatting. It returns an HTML table string. If the flag is true, it adds line breaks and spaces for readability. If the flag is false, it removes them for compactness.
-- `toMarkdown(arrList)` takes an array of arrays that contains the row values and returns a Markdown table string.
-- `toTable(arrList)` takes an array of arrays that contains the row values and returns a plain text table string.
+### `toDelimitedTable(arrList, separator)` 
+
+It takes an array of arrays that contains the row values and a separator character. It returns a delimited table string using the separator. It also adds double quotes around any value that contains the separator.
+
+### `toHTML(arrList, isFormatted)` 
+
+It takes an array of arrays that contains the row values and a boolean flag for formatting. It returns an HTML table string. If the flag is true, it adds line breaks and spaces for readability. If the flag is false, it removes them for compactness.
+
+### `toMarkdown(arrList)` 
+
+It takes an array of arrays that contains the row values and returns a Markdown table string.
+
+### `toTable(arrList)` 
+
+It takes an array of arrays that contains the row values and returns a plain text table string.
 
 ## Installation
 
