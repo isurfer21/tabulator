@@ -1,4 +1,4 @@
-# tabulator
+# tabulatore
 
 > A library to transform and show tables in different formats.
 
@@ -6,7 +6,7 @@
 ![Tests 20 passed](https://img.shields.io/badge/tests-20_passed-green)
 ![License MIT](https://img.shields.io/badge/license-MIT-blue) 
 
-The `tabulator` library contains three modules: 
+The `tabulatore` library contains three modules: 
 
 - [Sifter](#sifter)
 - [Printer](#printer)

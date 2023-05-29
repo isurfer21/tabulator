@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
 
-// Import the module from tabulator.js
-import { Sifter, Printer, Renderer } from '../tabulator.js';
+// Import the module from tabulatore.js
+import { Sifter, Printer, Renderer } from '../tabulatore.js';
 import YAML from 'yaml';
 import TOML from '@ltd/j-toml';
 
@@ -14,7 +14,7 @@ const rows = [
 ];
 
 // Write the jest tests for the module
-describe('tabulator module', () => {
+describe('tabulatore module', () => {
   // Test that the module exports the classes correctly
   test('the module should export Sifter, Printer, and Renderer classes', () => {
     // Expect the module to have the named exports
